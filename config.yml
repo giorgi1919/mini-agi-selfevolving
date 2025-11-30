@@ -1,0 +1,13 @@
+safe_directories:
+  - worker
+  - plugins
+
+forbidden_imports:
+  - os
+  - subprocess
+  - requests
+  - shutil
+  - socket
+  - sys
+
+max_patch_lines: 40
